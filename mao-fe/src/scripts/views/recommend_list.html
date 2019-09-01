@@ -1,0 +1,28 @@
+<div class="channel">
+    <div class="head">
+        <h4 >
+            <i class="channel-icon"></i>
+            频道
+        </h4>
+        <a href="./channels.html" class="more-a">
+            <div class="more">
+                更多
+                <i class="more-icon"></i>
+            </div>
+        </a>
+    </div>
+    <ul class="channel-body">
+        {{each info}}
+       
+            <a href="https://www.baidu.com">
+                <div class="picture">
+                    <img src="https://static.missevan.com/{{$value.icon.substr(6)}}" alt="">
+                    <div class="num"> <i class="num-icon"></i>{{$value.follow_num}}</div>
+                </div>
+                <div class="name">{{$value.name}}</div>
+            </a>
+        
+        {{/each}}
+    </ul>
+</div>  
+

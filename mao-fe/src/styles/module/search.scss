@@ -1,0 +1,30 @@
+.hot-head{
+    position: absolute;
+    height: .4rem;
+    line-height: .4rem;
+    top: 41px;
+    width: 100%;
+    z-index: 80;
+    background: #f5f5f5;
+    padding: 0  .12rem ;
+    border-bottom: 1px solid #e0e0e0;
+}
+.search-content{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .hot-search{
+        display: flex;
+        flex-wrap: wrap;
+        padding: .1rem;
+        .label{
+            padding: .04rem .1rem;
+            margin: .05rem .06rem;
+            background: #fff;
+            border-radius: .2rem;
+        }
+    }
+    
+}

@@ -1,0 +1,14 @@
+
+{{each  info}}
+<a href="#" class="unit">
+    <div class="back-pic"></div>
+    <div class="content-pic">
+        <img src="{{$value.front_cover}}" alt="">
+        <div class="count">
+            {{$value.music_count}}
+        </div>
+    </div>
+    
+    <div class="title">{{$value.title}}</div>
+</a>
+{{/each}}

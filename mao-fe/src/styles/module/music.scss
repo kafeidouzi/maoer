@@ -1,0 +1,102 @@
+.music{
+    display: flex;
+    flex-direction: column;
+    .music-head{
+        margin: .1rem 0;
+        padding: 0 .14rem;
+        height: .24rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .music-all{
+            width: .84rem;
+            padding-left: .1rem;
+            border-left: 3px solid #000;
+            font-size: .16rem;
+        }
+        .music-kind{
+            color: #757575;
+            display: flex;
+            border-radius: .12rem;
+            background: #fff;
+            width: .64rem;
+            justify-content: center;
+            .kind-icon{
+                position: relative;
+                top: .07rem;
+                right: -.02rem;
+                width: .08rem;
+                height: .08rem;
+                border: 1px solid #757575;
+                border-bottom: none;
+                border-left: none;
+                transform: rotate(45deg);
+            }
+        }
+    }
+    .music-content{
+        margin: .1rem 0;
+        padding: 0 .14rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        a.unit{
+            // width: 1.64rem;
+            // height: 1.91rem;
+            width: calc((100vw - 28px) / 2 - 10px);
+            position: relative;
+            margin-right: .05rem;
+            margin-bottom: .35rem;
+            .back-pic{
+                // width: 1.64rem;
+                // height: 1.64rem;
+                width: calc((100vw - 28px) / 2 - 10px);
+                height: calc((100vw - 28px) / 2 - 10px);
+                background-image: url(https://static.missevan.com/assets/m/images/build/album-cover.efe70663.png);
+                background-repeat: no-repeat;
+                background-size: contain; 
+                
+            }
+            .content-pic{
+                position: absolute;
+                width: calc((100vw - 28px) / 2 - 28px);
+                height: calc((100vw - 28px) / 2 - 28px);
+                border-radius: .04rem;
+                top: 0;
+                left: 0;
+                img{
+                    width: calc((100vw - 28px) / 2 - 28px);
+                    height: calc((100vw - 28px) / 2 - 28px);
+                    border-radius: .04rem;   
+                }
+            }
+            .count{
+                display: flex;
+                justify-content: flex-end;
+                position:absolute;
+                bottom:.03rem;
+                right: .06rem;
+                z-index: 3; 
+                color: #fff;
+            }
+            .count::before{
+                content: '';
+                width: .13rem;
+                height: .11rem;
+                background-image: url(https://static.missevan.com/assets/m/images/build/sprite-icons-thumbnails@2x.c71cb7b7.png);
+                background-repeat: no-repeat;
+                background-position: 0px -44px;
+                background-size: .56rem .55rem;
+                margin: .05rem 0 .03rem;
+            }
+            .title{
+                position: absolute;
+                top: 99%;
+                height: .4rem;
+                margin-top: -.1rem
+            }
+        }
+       
+    }
+}

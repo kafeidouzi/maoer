@@ -1,0 +1,35 @@
+.sort{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; 
+    .sort-content{
+        padding: .15rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        a{
+            width: 1.05rem;
+            height: 1.05rem;
+            background: #fff;
+            margin: .1rem 0;
+            border-radius: .04rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .sort-pic{
+                width: .5rem;
+                height: .5rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            // .sort-name{
+
+            // }
+        }
+    }
+}

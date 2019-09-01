@@ -1,0 +1,130 @@
+.login-page{
+    width: 100%;
+    height:calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    background: #f5f5f5;
+    position: absolute;
+    top: .4rem;
+    left: 0;
+    .login-content{
+        width:calc(100vw - 72px);
+        
+        //height:calc(100vh - 110px);
+        flex: 1;
+        margin: 0 .36rem;
+        // background: lightgreen;
+        display: flex;
+        flex-direction: column;
+        .form-group{
+            padding: .05rem;
+            display: flex;
+            flex-direction: column;
+            margin: .1rem 0;
+            .group-head{
+                margin-top: .16rem;
+                font-size: .16rem;
+                line-height: .16rem;
+            }
+            input{
+                border: none;
+                width: 100%;
+                height: .42rem;
+                border-radius: .04rem;
+                padding: 0 .1rem;
+                border: 1px solid #e0e0e0;
+            }
+            .in-login{
+                margin: .2rem 0;
+            }
+            .psd-content{
+                display: flex;
+                align-items: center;
+                position: relative;
+                .in-psd{
+
+                }
+                .forget-psd{
+                    color:#bdbdbd;
+                    position: absolute;
+                    right: .03rem;
+                }
+            }
+            .attention{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: .2rem 0;
+                height: .2rem;
+                .remember{
+                    height: 100%;
+                    line-height: .2rem;
+                    .gou{
+                        width: .16rem;
+                        height: .16rem;
+                        position: relative;
+                        top: .03rem;
+                        background: #fff;
+                    }
+            }   
+            }
+            .this-login{
+                margin: .2rem 0;
+                background:  #c14a3f;
+                border-color:  #c14a3f;
+                color: #fff;
+                font-size: .16rem;
+                border: none;
+                width: 100%;
+                height: .42rem;
+                border-radius: .04rem;
+                padding: 0 .1rem;
+                border: 1px solid #e0e0e0;
+                line-height: .42rem;
+                text-align: center;
+            }
+            .register{
+                display: block;
+                width: 100%;
+                height: .42rem;
+                line-height: .42rem;
+                border-radius: .04rem;
+                text-align: center;
+                border: 1px solid #e0e0e0;
+                background: #fff;
+                font-size: .16rem;
+                color: #000;
+            }
+        }
+        .other-login{
+            margin: .1rem 0;
+            display: flex;
+            flex-direction: column;
+            .other-head{
+                text-align: center;
+                color: #e0e0e0;
+            }
+            .other-content{
+                margin-top: .2rem;
+                display: flex;
+                justify-content: space-around;
+                >a{
+                    width: .5rem;
+                    height: .5rem;
+                    background-image: url(https://static.missevan.com/assets/m/images/build/sprite-icons-share@2x.754f2ea8.png);
+                    background-repeat: no-repeat;
+                    background-size: 1.54rem  1.53rem;
+                }
+                .qq{
+                    background-position: 0  -1.04rem;
+                }
+                .weibo{
+                    background-position: -1.04rem  -.51rem;
+                }
+                .bili{
+                    background-position: 0  -.52rem;
+                }
+            }
+        }
+    }
+}
